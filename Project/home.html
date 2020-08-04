@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <! -- Carousel Container method was learned from youtube user Dev Ed in this video: https://www.youtube.com/watch?v=KcdBOoK3Pfw -->
+  <! -- images are all from Wizards of the Coast Press Assets page: https://dnd.wizards.com/pressassets -->
+ </head>
+ 
+ <body>
+	<h1 class="titleHeader" id="titleHeader">Fun With Dungeons & Dragons</h1>
+	
+	<div>
+		<table class="menuTable" id="menuTable">
+			<tr>
+				<th><button id="homeButton">Home</button></th>
+				<th><button id="charButton">Characters</button></th>
+				<th><button id="spellsButton">Spells</button></th>
+				<th><button id="searchButton">Search</button></th>
+			</tr>
+		</table>
+	</div>
+ 
+	<div class="whatIsDND">
+		<h2>So, what is Dungeons & Dragons?</h2>
+		<p>Dungeons and Dragons is a role-playing game where you create a character who will go through a storyline that's guided by a "Dungeon Master" (DM). 
+		The DM can use one of the storylines that is provided by Wizards of the Coast (the company that makes the game), or they can create their own fictional world 
+		with characters in a world that they've created. You get to choose what your character does in the world you're playing in. Imagine you're reading a really 
+		good book - but instead of reading about what the character is doing, you get to choose! For example, you may begin a game session like this:</p>
+		<p>Your DM says "You wake up and find yourself in a small room. On the nightstand beside the bed you see a folded note with 
+		your name written on the front, and a key beside it. On the south wall there is a small window with a locked shutter, through which you hear the ocean; 
+		on the north wall there is a wooden door. There is a small chest on the floor at the end of the bed with an iron lock on the front of it.
+		You can hear a quiet knock coming from what appears to be a hidden trap door near your nightstand. What do you do?"</p>
+		<p>And then you decide what your character will do! Most D&D games typically have anywhere from 4 to 6 players, 
+		each with their own characters who are working together to advance through the plot of the story and achieve their goals.</p>
+		
+	</div>
+	
+	<div class="WhyDoPeoplePlay">
+		<h2>Okay, so why do people play this?</h2>
+		<p>For the thrill of the adventures! Many who enjoy storytelling - whether it's writing the stories or reading/watching/listening to them - also enjoy 
+		playing Dungeons & Dragons. Some have compared D&D to a "choose your own adventure" book. Others enjoy the role-playing aspect the most and enjoy playing 
+		a character and being in the shoes of someone else for a while. But most of all, we play because it's FUN! The ultimate goal of any D&D experience should 
+		be to have fun.</p>
+	</div>
+	<br>
+	<h2 id="carouselTitle" class="carouselTitle">These are some of the official campaigns (storylines to play) that have been put out by Wizards of the Coast!</h2>
+	<br>
+	<div class="carousel-container">
+		<div class="carousel-slide">
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/tyranny-dragons"><img src="./images/bookcovers/Tyrrany.png" alt="" id="lastClone"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/baldursgate_descent"><img src="./images/bookcovers/Descent.png" alt="" id="descent"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/eberron"><img src="./images/bookcovers/Eberron.png" alt="" id="eberron"></a>
+			<a href="https://dnd.wizards.com/products/wildemount"><img src="./images/bookcovers/Explorer.png" alt="" id="explorer"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/icewind-dale-rime-frostmaiden"><img src="./images/bookcovers/Icewind.png" alt="" id="icewind"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/mordenkainens-tome-foes"><img src="./images/bookcovers/Mordenkainen.png" alt="" id="mordenkainen"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/ghosts-saltmarsh"><img src="./images/bookcovers/Saltmarsh.jpg" alt="" id="saltmarsh"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/mythic-odysseys-theros"><img src="./images/bookcovers/Theros.png" alt="" id="theros"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/tyranny-dragons"><img src="./images/bookcovers/Tyrrany.png" alt="" id="tyrrany"></a>
+			<a href="https://dnd.wizards.com/products/tabletop-games/rpg-products/baldursgate_descent"><img src="./images/bookcovers/Descent.png" alt="" id="firstClone"></a>
+		</div>
+	</div>
+<p id="captions" class="captions">All images courtesy of Wizards of the Coast: https://dnd.wizards.com/pressassets</p>
+	<br>
+	<div id="prevAndNextButtons" class="PrevAndNextButtons" margin="auto">
+		<button id="prevButton" class="prevButton">Prev</button>
+		<button id="nextButton" class="nextButton">Next</button>
+	</div>
+	
+  <script src="home-script.js"></script>
+ </body>
+</html>

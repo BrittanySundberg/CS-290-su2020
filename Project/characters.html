@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Character Suggestions</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+ </head>
+ <body>
+ 	<h1 class="titleHeader" id="titleHeader">Fun Character Suggestions</h1>
+  	
+	<div>
+		<table class="menuTable" id="menuTable">
+			<tr>
+				<th><button id="homeButton">Home</button></th>
+				<th><button id="charButton">Characters</button></th>
+				<th><button id="spellsButton">Spells</button></th>
+				<th><button id="searchButton">Search</button></th>
+			</tr>
+		</table>
+	</div>
+	
+	<p class="charactersIntro">There are many different ways you can "build" your character in Dungeons & Dragons. Do you want to be a support player who helps others 
+	in critical situations? Do you want to deal a ton of damage to enemies during battle? Do you want to have a lot of utility in non-battle situations? 
+	Do you want to be able to sneak into locations and steal the items you need without being noticed? There are so many possibilities! 
+	Of course there are many other types of characters, and other classes that fit into these categories, but these are some of my favorites, with some help and suggestions from my favorite DM and fellow players :) </p>
+	<div class="suggestionList">
+	<a href="./CharacterSuggestions.pdf" download="Character_Suggestions"><button class="downloadButton">Download this list of suggestions</button></a>
+	<br>
+	
+	<table>
+		<tr>
+			<td id="leftContent" class="leftContent">
+				<h2>Utility (in & out of combat)</h2>
+				<h4>Can provide useful skills/effects aside from dealing damage or enhancing teammates</h4>
+				<ul class="utilityClasses">
+					<li>Wizard - with an arsenal of useful spells on hand, wizards can use spells for a huge variety of situations</li>
+					<li>Druid - druids also have an arsenal of useful spells that differ from wizard spells, and they also have other abilities like Wild Shape that can come in extremely useful </li>
+					<li>Cleric - clerics have useful spells, but also have special abilities granted to them by their diety that can prove very useful abilities</li>
+				</ul>
+				<br>
+				
+				<h2>Support</h2>
+				<h4>Can aid others in what they're doing by providing support, protection, or enhancement</h4>
+				<ul class="supportClasses">
+					<li>Bard - bards are fantastic at inspiring their teammates both in and out of combat, and disadvantaging the enemy</li>
+					<li>Cleric - clerics have spells and abilities that can provide healing and protection to their fellow players.</li>
+					<li>Sorcerer - there's a specific sub-class of sorcerer that can provide a great deal of support and healing to teammates</li>
+				</ul>
+				<br>
+				
+				<h2>Avoiding Combat</h2>
+				<h4>Can provide alternatives to combat situations</h4>
+				<ul class="avoidCombatClasses">
+					<li>Rogue - rogues can usually sneak in and out of places without being noticed really well</li>
+					<li>Bard - bards typically have a pretty high charisma, which means they can be good at persuading others.</li>
+					<li>Druid - with the ability to Wild Shape into an animal, druids have an incredible ability to avoid situations by becoming something unnoticeable</li>
+				</ul>
+				<br>
+				
+				<h2>High Bursts of Damage</h2>
+				<h4>Deals large amounts of damage in quick bursts</h4>
+				<ul class="BurstDamageClasses">
+					<li>Paladin - the paladin's ability to smite their foes deals an incredible amount of damage on a single hit</li>
+					<li>Rogue - with their sneak attack feature, rogues can do incredible amounts of damage if they use the combat situation to their advantage.</li>
+					<li>Sorcerer - of all the full casters, sorcerers have the ability to do incredible amounts of damage</li>
+				</ul>
+			</td>
+			<td id="rightContent" class="rightContent">
+				<h2>Official Art of the D&D 5e Classes:</h2>
+				<p>all photos from official D&D Beyond site <a href="https://www.dndbeyond.com/classes">here</a>.</p>
+				<table class="photoTable">
+					<tr>
+						<td class="photoCell"><strong>Barbarian:</strong>
+						<br><img src="./images/barbarian.png" id="barbarian" alt="barbarian"><td>
+						<td class="photoCell"><strong>Bard:</strong>
+						<br><img src="./images/bard.png" id="bard" alt="bard"><td>
+						<td class="photoCell"><strong>Cleric:</strong>
+						<br><img src="./images/cleric.png" id="cleric" alt="cleric"><td>
+					</tr>
+					<tr>
+						<td class="photoCell"><strong>Druid:</strong>
+						<br><img src="./images/druid.png" id="druid" alt="druid"><td>
+						<td class="photoCell"><strong>Fighter:</strong>
+						<br><img src="./images/fighter.png" id="fighter" alt="fighter"><td>
+						<td class="photoCell"><strong>Monk:</strong>
+						<br><img src="./images/monk.png" id="monk" alt="monk"><td>
+					</tr>
+					<tr>
+						<td class="photoCell"><strong>Paladin:</strong>
+						<br><img src="./images/paladin.png" id="paladin" alt="paladin"><td>
+						<td class="photoCell"><strong>Ranger:</strong>
+						<br><img src="./images/ranger.png" id="ranger" alt="ranger"><td>
+						<td class="photoCell"><strong>Rogue:</strong>
+						<br><img src="./images/rogue.png" id="rogue" alt="rogue"><td>
+					</tr>
+					<tr>
+						<td class="photoCell"><strong>Sorcerer:</strong>
+						<br><img src="./images/sorcerer.png" id="sorcerer" alt="sorcerer"><td>
+						<td class="photoCell"><strong>Warlock:</strong>
+						<br><img src="./images/warlock.png" id="warlock" alt="warlock"><td>
+						<td class="photoCell"><strong>Wizard:</strong>
+						<br><img src="./images/wizard.png" id="wizard" alt="wizard"><td>
+					</tr>
+				
+				</table>
+			</td>
+		
+	</div>
+	
+
+	<script src="characters-script.js"></script>
+ </body>
+</html>

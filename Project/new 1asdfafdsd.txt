@@ -1,0 +1,7 @@
+	<button id="prevButton">Prev</button>
+	<button id="nextButton">Next</button>
+	
+	
+	  <link rel="stylesheet" href="home-style.css" type="text/css">
+  <! -- Carousel Container method was learned from youtube user Dev Ed in this video: https://www.youtube.com/watch?v=KcdBOoK3Pfw -->
+  <! -- images are all from Wizards of the Coast Press Assets page: https://dnd.wizards.com/pressassets -->

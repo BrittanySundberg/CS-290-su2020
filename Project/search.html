@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Search</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+ </head>
+ <body class="searchBody">
+ 	<h1 class="titleHeader" id="titleHeader">Search for D&D Information</h1>
+	
+	<div>
+		<table class="menuTable" id="menuTable">
+			<tr>
+				<th><button id="homeButton">Home</button></th>
+				<th><button id="charButton">Characters</button></th>
+				<th><button id="spellsButton">Spells</button></th>
+				<th><button id="searchButton">Search</button></th>
+			</tr>
+		</table>
+	</div>
+	
+	<table class="searchPageTable">
+		<tr>
+			<td class="searchCells">
+				<div>
+					<h2>I want to see a list of D&D 5th Edition...</h2>
+					<table class="searchTable" id="searchTable">
+						<tr>
+							<th id="racesButton"><button>Races</button></th>
+							<th id="classesButton"><button>Classes</button></th>
+							<th id="featuresButton"><button>Features</button></th>
+							<th id="spellsearchButton"><button>Spells</button></th>
+							<th id="monstersButton"><button>Monsters</button></th>
+						</tr>
+					</table>
+				</div>
+				<h3>Results:</h3>
+				<div id="resultsHere" class="resultsHere">
+					<ul id="resultsList">
+					
+					
+					</ul>
+				</div>
+			</td>
+			
+			<td class="searchCells">
+				<h2>I want to search for a specific...</h2>
+				<div id="searchRacesForm" class="searchRacesForm">
+					<form>
+						<label for="races">Race:</label>
+						<input type="text" id="races" name="races">
+						<button id="racesSearch" class="searchSubmit">Submit!</button>
+					</form>
+					<br>
+					<form>
+						<label for="classes">Class:</label>
+						<input type="text" id="classes" name="classes">
+						<button id="classesSearch" class="searchSubmit">Submit!</button>
+					</form>
+					<br>
+					<form>
+						<label for="spells">Spell:</label>
+						<input type="text" id="spells" name="spells">
+						<button id="spellsSearch" class="searchSubmit">Submit!</button>
+					</form>
+					<br>
+				</div>
+					
+				<h3>Search Results:</h3>
+				<div id="searchResults" class="searchResults">
+					<p id="searchResultDisplay"></p>
+				</div>
+			</td>
+		</tr>
+	</table>
+		
+		
+		
+	
+	<script src="search-script.js"></script>
+ </body>
+</html>

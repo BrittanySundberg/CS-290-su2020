@@ -1,0 +1,172 @@
+body {
+	margin: 30px;
+	background-color: #E8DAEF;
+}
+
+.menuTable {
+	width: 25%;
+	text-align: center;
+	margin: auto;
+}
+
+.PrevAndNextButtons{
+	margin: auto;
+	text-align: center;
+}
+
+p, div, form, button, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Calibri", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin: 20px;
+}
+
+p, label {
+	font-size: 16px;
+}
+
+
+/* this format for better-looking buttons is from https://www.w3schools.com/ */
+button {
+  background-color: #5B2C6F; 
+  border: 1px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  button-duration: 0.2s;
+  border-radius: 10px;
+
+}
+
+button:hover {
+	background-color: #BB8FCE;
+	color: white;
+}
+
+.searchSubmit {
+	padding: 5px;
+	font-size:12px;
+}
+
+.carousel-container{
+	width: 350px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.carousel-slide{
+	display: flex;
+	width: 350px;
+	height: 450px;
+}
+
+.resultsHere{
+	width: 60%;
+	height: 400px;
+	overflow: scroll;
+	padding: 5px;
+	border: 1px solid black
+}
+
+.captions{
+	font-size: 12px;
+	margin: auto;
+	text-align: center;
+}
+
+.carouselTitle {
+	text-align: center;
+	margin: auto;
+}
+
+.spellResultsHere{
+	width: 50%;
+	height: 400px;
+	overflow: scroll;
+	padding: 5px;
+	margin: auto;
+}
+
+.leftContent {
+	width: 40%;
+	vertical-align: top;
+}
+
+.rightContent {
+	width: 60%;
+	vertical-align: top;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spellsContent {
+	width: 75%;
+	margin: auto;
+}
+
+.allSpells {
+	text-align: center;
+}
+
+.spellSites {
+	margin: auto;
+	text-align: center;
+	list-style-type: none;
+}
+
+.listButtons {
+	padding-top: 4px;
+}
+
+.charactersIntro {
+	text-align: center;
+	margin: 50px;
+}
+
+.downloadButton {
+	text-align: center;
+	margin: auto;
+}
+
+.suggestionList {
+	margin: 20px;
+}
+
+.whatIsDND {
+	margin: 20px;
+}
+
+.WhyDoPeoplePlay {
+	margin: 20px;
+}
+
+.characterPhotos {
+	list-style: none;
+}
+
+.photoTable {
+	width: 100%;
+	vertical-align: top;
+}
+
+.photoCell {
+	vertical-align: top;
+}
+
+.searchPageTable{
+	width: 80%;
+	margin: auto;
+}
+
+.searchCells {
+	width: 50%;
+	vertical-align: top;
+	margin-left: 10px;
+}
